@@ -1,7 +1,14 @@
 body {
     background-color: peru;
 }
+h1 {
+    color : black;
+    background-color: hotpink;
+    transition: all .5s ease-in-out;
+}
 
-#title{
-    
+.clicked {
+    background-color: green;
+    color: hotpink;
+
 }
