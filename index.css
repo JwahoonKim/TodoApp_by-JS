@@ -1,14 +1,12 @@
 body {
-    background-color: peru;
-}
-h1 {
-    color : black;
-    background-color: hotpink;
-    transition: all .5s ease-in-out;
+    background-color: white;
 }
 
-.clicked {
-    background-color: green;
-    color: hotpink;
+.form,
+.greeting {
+    display: none;
+}
 
+.showing {
+    display: block;
 }
